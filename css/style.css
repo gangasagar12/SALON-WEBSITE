@@ -75,7 +75,7 @@ body{
     background: url(../images/image.png);
     height: 600px;
     background-position: no-repeat;
-    background-size: cover;
+    background-size:auto;
     display:flex;
     align-items: center;
     color:var(--text-dark);
@@ -116,4 +116,10 @@ body{
     background-color: transparent;
     border-color: var(--primary-color);
     
+}
+:root{
+    --dark-background:black;
+    --text-color:white;
+    --primary-color:#ffffff;
+    --light-text: gray;
 }
