@@ -125,35 +125,36 @@ body{
 }
 
 /*  for the about us sections  */
-.page-banner h1{
-    text-align: justify;
-    padding: 20px;
-    background: #f4f4f4;
-    margin-bottom: 20px;
+.page-banner {
+ display: flex;
+padding: 40px 60px;
+background-color: #f7eedd;
+
+
+}
+.about-container{
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    width: 200px;
-    border-radius:20px;
-    transition: 0.3s;
-}
-.page-banner h1:hover{
-   transform:translateY(-10px);
-   background-color:lightskyblue;   
-}
+    align-items: flex-start;
+    gap: 40px;
 
+}
 
 .page-content{
-display: flex;
-justify-content: space-between;
-align-items: center;
-gap: 30px;
-padding: 20px;
+width: 40%;
+font-size: 18px;
+line-height: 1.6;
+
 }
-.page-banner.page-content{
-    width: 10%;
+.page-content h1:hover{
+   transform:translateY(-10px);
+   background-color:lightskyblue;  
+   width: 200px;
+   height: 50px; 
 }
-.page-banner.image img{
-    width: 50px;
-    border-radius: 10px;
+.about-image img{
+ width: 600px;
+ border-radius: 12px;
+ object-fit: cover;
+
 }
