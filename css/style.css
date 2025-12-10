@@ -171,3 +171,43 @@ line-height: 1.6;
   100% {transform: scale(1);}
 
 }
+
+
+/*  for the about section */
+.header{
+    width:100%;
+    height:10px;
+    background-color:deepskyblue;
+
+}
+.scroll-container{
+    width:100%;
+    overflow:hidden;
+    background: #111;
+    color:white;
+    padding: 10px 0;
+}
+.scroll-text{
+    display: inline-block;
+    white-space: nowrap;
+    animation:scroll-left 15s linear infinite;
+}
+@keyframes scroll-left{
+    0% { transform : translateX(100%);}
+    100% { transform: translateX(-100%);}
+}
+
+/* about html filee */
+/* seperate section  */
+.seperate{
+    width: 100%;
+    height: 4px;
+background-color: #111;
+animation: pulse 1.5s infinite;
+} 
+ @keyframes pulse{
+    0%{opacity: 0.3;}
+    50%{opacity: 1;}
+    100%{opacity: 0.3;}
+} 
+
