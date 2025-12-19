@@ -294,8 +294,6 @@ animation: pulse 1.5s infinite;
     color: white;
     display: flex;
 }
-.seperate{
-    width: 20px;
-    height: 2px;
-    display: flex;
-}
+
+/*  today i  tested the some new implemetion trick  form the many days it  doesnt able too work with cotribution granph
+ */
