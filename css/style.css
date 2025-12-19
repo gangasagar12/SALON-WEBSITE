@@ -289,3 +289,8 @@ animation: pulse 1.5s infinite;
   text-decoration: none;
   font-size: 13px;
 }
+.about-container ::after{
+    background-color: black;
+    color: white;
+    display: flex;
+}
