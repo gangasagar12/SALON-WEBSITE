@@ -294,3 +294,8 @@ animation: pulse 1.5s infinite;
     color: white;
     display: flex;
 }
+.seperate{
+    width: 20px;
+    height: 2px;
+    display: flex;
+}
